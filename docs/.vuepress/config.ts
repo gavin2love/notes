@@ -9,7 +9,7 @@ import baiduCode from './config/baiduCode' // 百度统计hm码
 import htmlModules from './config/htmlModules' // 自定义插入的html块
 
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
-  // theme: 'vdoing', // 使用npm包主题
+  //theme: 'vdoing', // 使用npm包主题
   theme: resolve(__dirname, '../../vdoing'), // 使用本地主题
 
   locales: {
@@ -155,17 +155,17 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     sidebar: 'structuring',
 
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
-    author: {
-      name: 'gavin2love', // 必需
-      link: 'https://github.com/gavin2love', // 可选的
-    },
+    // author: {
+    //   name: 'gavin2love', // 必需
+    //   link: 'https://github.com/gavin2love', // 可选的
+    // },
 
-    // 博主信息 (显示在首页侧边栏)
-    blogger: {
-      avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-      name: 'gavin2love',
-      slogan: '获得2008年感动中国荣誉',
-    },
+    // // 博主信息 (显示在首页侧边栏)
+    // blogger: {
+    //   avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
+    //   name: 'gavin2love',
+    //   slogan: '获得2008年感动中国荣誉',
+    // },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
     social: {
