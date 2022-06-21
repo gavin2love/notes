@@ -31,4 +31,4 @@
 <br/>
 <img src="/img/rqcode.svg"  style="width:260px;" />
 
- 添加站长微信好友,进群交流
+ 添加站长微信好友,进群交流!!
