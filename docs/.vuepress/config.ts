@@ -25,7 +25,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   themeConfig: {
     // 导航配置
     nav: [
-      { text: '首页', link: '/' },
+      // { text: '首页', link: '/' },
       // {
       //   text: '技术',
       //   link: '/technology/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
@@ -94,7 +94,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       //     { text: '友情链接', link: '/friends/' },
       //   ],
       // },
-      { text: '关于', link: '/about/' },
+      { text: '关于', link: '/pages/fc18d2/' },
       // {
       //   text: '收藏',
       //   link: '/pages/beb6c0bd8a66cea6/',
@@ -104,15 +104,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       //   //   { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
       //   // ],
       // },
-      {
-        text: '归档',
-        link: '/archives/',
-        //items: [
-        //  { text: '分类', link: '/categories/' },
-        //  { text: '标签', link: '/tags/' },
-        //  { text: '归档', link: '/archives/' },
-        //],
-      },
+      // {
+      //   text: '归档',
+      //   link: '/archives/',
+      //   //items: [
+      //   //  { text: '分类', link: '/categories/' },
+      //   //  { text: '标签', link: '/tags/' },
+      //   //  { text: '归档', link: '/archives/' },
+      //   //],
+      // },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
@@ -152,7 +152,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // pageButton: false, // 是否显示快捷翻页按钮，默认true
 
     // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | <自定义>    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
-    sidebar: 'structuring',
+    sidebar: { mode: 'structuring', collapsable: false},
 
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     // author: {
@@ -198,7 +198,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2017, // 博客创建年份
       copyrightInfo:
-        '豌豆日志 </br> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010502005879" rel="external nofollow" target="_blank"><img src="/img/gonan.png">浙公网安备33010502005879号</a>  |  <a href="https://beian.miit.gov.cn" rel="external nofollow" target="_blank"><img src="/img/icp.png">浙ICP备2021013583号-7</a>        ', // 博客版权信息，支持a标签或换行标签</br>
+        '&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/archives/">归档</a>&nbsp;&nbsp;|&nbsp;&nbsp;豌豆日志 </br> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010502005879" rel="external nofollow" target="_blank"><img src="/img/gonan.png">浙公网安备33010502005879号</a>  |  <a href="https://beian.miit.gov.cn" rel="external nofollow" target="_blank"><img src="/img/icp.png">浙ICP备2021013583号-7</a>        ', // 博客版权信息，支持a标签或换行标签</br>
     },
 
     // 自定义hmtl(广告)模块
