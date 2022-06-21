@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/more.png
+heroImage: /img/home.gif
 heroText: 运愁维卧
 tagline: 💖古语有云：积跬步以至千里，致敬每个爱学习的你
 actionText: 开始 →
