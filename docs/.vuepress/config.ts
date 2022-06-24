@@ -94,6 +94,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       //     { text: '友情链接', link: '/friends/' },
       //   ],
       // },
+      {
+        text: '集成与部署',
+        // link: '/pages/817eb2/',
+        items: [
+          { text: 'Docker容器', link: '/pages/817eb2/' },
+        ],
+      },
       { text: '关于', link: '/pages/fc18d2/' },
       // {
       //   text: '收藏',

@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /img/home.gif
-heroText: 运愁维卧
-tagline: 💖古语有云：积跬步以至千里，致敬每个爱学习的你
+heroText: 翻过一座山, 你就高过一座山
+tagline: 💖我在巨神峰之巅寻找力量, 最后发现它一直在我心中
 actionText: 开始 →
 actionLink: /pages/a2f161/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
