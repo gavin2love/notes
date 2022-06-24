@@ -29,6 +29,6 @@
 
 ## 联系站长
 <br/>
-<img src="/img/rqcode.svg"  style="width:260px;" />
+<img src="/img/123.svg"  style="width:260px;" />
 
  添加站长微信好友,进群交流!!
